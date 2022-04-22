@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title> contoh form </title>
+    </head>
+
+    <body>
+        <font type = arial black font size="6"> data diri </font>
+        <br><br>
+
+        <form action="simpan data.html" method="post">
+        <font type = arial size="5">
+            Nama: <input type="text" name="nama" required>
+            <br><br>
+
+            Nim : <input type ="text" name="nim" value="" maxlength="9" size="9">
+            <br>
+            <br>
+        </font>
+
+            E-mail:
+            <input type="email" name="email" required><br><br>
+
+            password : <input type="password" name="pass" size="11" maxlength="9" required>
+            <br>
+            <br>
+
+            Tanggal lahir:
+            <input type="date" name="bday"><br><br>
+
+            Jenis kelamin :
+            <br>
+            <input type="radio" name="jenis_kelamin" value="L"> Laki-Laki
+            <br>
+            <input type="radio" name="jenis_kelamin" value="P"> Perempuan
+            <br>
+            <br>
+
+            Pilih hobi anda (boleh lebih dari satu) :
+            <br>
+            <input type="checkbox" name="hobi_1" value="menonton"> menonton
+            <br>
+            <input type="checkbox" name="hobi_2" value="main game"> Main game
+            <br>
+            <input type="checkbox" name="hobi_3" value="belanja"> belanja
+            <br>
+            <input type="checkbox" name="hobi_4" value="mancing"> mancing
+            <br>
+            <input type="checkbox" name="hobi_5" value="olahraga"> olahraga
+            <br>
+            <br>
+
+            Asal kota:
+            <select name="asal_kota">
+                <option value="Kota banjarmasin"> banjarmasin</option>
+                <option value="Kota bandung"> bandung</option>
+                <option value="Kota banjarbaru"> banjarbaru</option>
+            </select>
+            <br>
+            <br>
+            
+            Komentar anda:
+            <br>
+            <textarea name="komentar" rows="5" cols="20">
+                Silahkan isi komentar anda
+            </textarea>
+            <br>
+            <br>
+
+            <input type="reset" name="ulangi" value="reset">
+            <input type="submit" name="kirim" value="submit">
+            <input type="button" name="batal" value="cancel">
+            <br>
+            <br>
+            <input type="image" name="gambar" img src="panah.png" width="150" height="150">
+
+         </form>
+    </body>
+</html>
